@@ -5,18 +5,45 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  position: relative;
+  .vague-1 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .vague-2, .vague-3 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .bulles {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
   .slogan {
-    // align-items: center;
-    // justify-content: center;
-    // text-align: center;
     font-family: $font;
     font-weight: bolder;
+    font-size: 190%;
+    color: white;
+    position: absolute;
+    top: 15%;
   }
   .catch_phrase {
-    // align-items: center;
-    // justify-content: center;
-    // text-align: center;
     font-family: $font;
+    color: white;
+    font-size: 100%;
     width: 50%;
+    position: absolute;
+    top: 22%;
+  }
+  .iphone_1 {
+    position: absolute;
+    bottom: 5%;
+    z-index: 0;
+    width:18%;
   }
 }

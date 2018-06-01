@@ -1,0 +1,39 @@
+/* Main navbar */
+.navbar-wagon {
+  background: transparent;
+  background: transparent;
+  height: 70px;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar-wagon-brand img {
+  height: 50px;
+}
+
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.navbar-wagon-link {
+  color: white;
+  font-size: 14px;
+  font-family: $font;
+  font-weight: lighter;
+}
+.navbar-wagon-link:hover {
+  color: $yellow;
+  text-decoration: none;
+}

@@ -1,11 +1,35 @@
 
-
-
 <section>
-  <div class="banner" style="background-image: url(assets/images/fond-banniere.png)">
+  <div class="navbar-wagon">
+    <a href="/" class="navbar-wagon-brand">
+      <img src="assets/images/logo.png" alt="logo">
+    </a>
+    <div class="navbar-wagon-right">
+      <%= link_to t('link_1'), '../contact.html.erb', class: "navbar-wagon-item navbar-wagon-link"  %>
+      <%= link_to t('link_2'), '../contact.html.erb', class: "navbar-wagon-item navbar-wagon-link"  %>
+      <%= link_to t('link_3'), '/contact.html.erb', :relative => true, class: "navbar-wagon-item navbar-wagon-link"  %>
+    </div>
+  </div>
+  <div class="banner" style="background-image: url(assets/images/banniere.png)">
+
     <h1 class="slogan" ><%= t('slogan').upcase%></h1>
     <div class="catch_phrase">
       <p> <%= t('catch_phrase') %></p>
+    </div>
+    <div class="vague-2">
+      <img src="assets/images/vague_2.png">
+    </div>
+    <div class="vague-3">
+      <img src="assets/images/vague_3.png">
+    </div>
+    <div class="bulles">
+      <img src="assets/images/bulles.png">
+    </div>
+    <div class="vague-1">
+      <img src="assets/images/vague_1.png">
+    </div>
+    <div  class="iphone_1">
+      <img src="assets/images/iphone_blanc_1.png">
     </div>
   </div>
 </section>
