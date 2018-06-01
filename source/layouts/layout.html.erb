@@ -4,17 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>charles-henri Poniard</title>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <title>Bridge</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <%= favicon_tag "favicon.ico" %>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 </head>
 <body class="<%= page_classes %>">
   <div class="container-fluid">
     <%= partial "layouts/banner" %>
-    <%= partial "layouts/presentation" %>
-    <%= partial "layouts/price" %>
-    <%= partial "layouts/footer" %>
     <%= yield %>
   </div>
   <%= javascript_include_tag "all.bundle" %>

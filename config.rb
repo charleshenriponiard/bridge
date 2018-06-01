@@ -13,6 +13,8 @@ configure :development do
   activate :livereload
 end
 
+activate :i18n, :mount_at_root => :fr
+
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascript'
 set :images_dir, 'assets/images'
@@ -34,3 +36,5 @@ activate :deploy do |deploy|
   deploy.branch         = 'gh-pages'
   deploy.build_before   = true
 end
+
+

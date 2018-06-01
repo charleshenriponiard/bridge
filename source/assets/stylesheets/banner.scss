@@ -1,31 +1,22 @@
-.background-banner{
-  position: relative;
-}
 .banner {
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  height: 80vh;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  h1 {
-    color: white;
-    font-family: Fjalla+One;
-    font-weight: 400px;
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
+  .slogan {
+    // align-items: center;
+    // justify-content: center;
+    // text-align: center;
+    font-family: $font;
+    font-weight: bolder;
+  }
+  .catch_phrase {
+    // align-items: center;
+    // justify-content: center;
+    // text-align: center;
+    font-family: $font;
+    width: 50%;
   }
 }
-
-.plaquette {
-  background-color: $blue;
-  position: absolute;
-  bottom:0;
-  right: 10%;
-}
-
-
-
-
