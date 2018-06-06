@@ -7,6 +7,7 @@ gem 'middleman-minify-html',    '~> 3.4.1'
 gem 'middleman-protect-emails', '~> 0.4.0'
 gem 'middleman-robots',         '~> 1.2.3'
 
+
 gem "oga"
 
 # gem 'middleman-deploy',         '~> 1.0.0' # FIXME: wait for new release
