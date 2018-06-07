@@ -1,0 +1,33 @@
+.presentation {
+  .trio {
+    height: 300px;
+    margin: 158px 0px 0px 93px;
+  }
+  .imgAvatar{
+    position:relative;
+    margin-top: -60px;
+    figure{
+      margin-left: 95px;
+    }
+  }
+  .avatar {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 100px;
+  }
+  .bio {
+    width: 500px;
+    margin-top: 10px;
+  }
+  .quotations {
+    width: 30px;
+    margin: 0 16px 0 46px;
+  }
+  .presentation_content {
+    max-height: 95vh;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(50, 50, 50);
+  }
+}

@@ -1,0 +1,37 @@
+/* Main navbar */
+.navbar-wagon {
+  position: fixed;
+  background-color: transparent;
+  background: transparent;
+  height: 70px;
+  padding: 0px 30px;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: white;
+  }
+}
+
+/* Logo */
+.navbar-wagon-brand img {
+  height: 50px;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}

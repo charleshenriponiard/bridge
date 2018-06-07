@@ -1,12 +1,31 @@
+.background-banner{
+  position: relative;
+}
 .banner {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 70vh;
-  background-image: url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwinfield.w.i.pic.centerblog.net%2Fgb0p7b49.jpg&f=1');
-  p {
-    color: black;
+  align-items: center;
+  height: 80vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  h1 {
+    color: white;
+    font-family: Fjalla+One;
+    font-weight: 400px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
   }
+
 }
+.plaquette {
+  background-color: $blue;
+  position: absolute;
+  bottom:0;
+  right: 10%;
+}
+
+
 
 

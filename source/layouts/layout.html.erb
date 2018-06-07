@@ -5,14 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>charles-henri Poniard</title>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
   <%= favicon_tag "favicon.ico" %>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>
 <body class="<%= page_classes %>">
-
-  <%= partial "layouts/banner" %>
-  <%= yield %>
-
+  <div class="container-fluid">
+    <%= partial "layouts/banner" %>
+    <%= partial "layouts/presentation" %>
+    <%= partial "layouts/presentation_2" %>
+    <div class="div">
+      toto
+    </div>
+    <%= yield %>
+  </div>
   <%= javascript_include_tag "all.bundle" %>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
 
 </body>
 </html>
