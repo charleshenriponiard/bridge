@@ -1,6 +1,7 @@
 import "bootstrap";
 import "all.scss";
 import "navbar.js";
+import "footer.js";
 
 
 import $ from "jquery";
