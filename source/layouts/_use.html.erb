@@ -1,5 +1,45 @@
 <section>
-  <div class="banner_2" style="background-image: url(assets/images/banniere-2.png)">
+  <div class="banner_2 use" style="background-image: url(assets/images/banniere-2.png)">
+    <div class="use_q">
+      <h2 ><%= t('use_header') %></h2>
+    </div>
+    <div class="content">
+      <div class="cards">
 
+        <div class="content_card">
+          <div class="picto">
+            <%= image_tag "shopping-basket.png" %>
+          </div>
+          <div>
+            <h3><%= t('acheter_head') %></h3>
+            <p><%= t('acheter_text') %></p>
+          </div>
+        </div>
+
+        <div class="content_card">
+          <div class="picto">
+            <%= image_tag "shop.png"%>
+          </div>
+          <div>
+            <h3><%= t('vendre_head') %></h3>
+            <p><%= t('vendre_text') %></p>
+          </div>
+        </div>
+
+        <div class="content_card">
+          <div class="picto">
+            <%= image_tag "calendar.png" %>
+          </div>
+          <div>
+            <h3><%= t('reserver_head') %></h3>
+            <p><%= t('reserver_text') %></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="logos">
+        <%= image_tag "logos.png" %>
+      </div>
+    </div>
   </div>
 </section>
