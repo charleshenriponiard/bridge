@@ -1,0 +1,22 @@
+.use {
+  height: 100vh; }
+  .use .picto {
+    max-width: 10%;
+    margin-right: 5%; }
+  .use .use_q {
+    color: white;
+    text-align: center;
+    padding: 5% 0; }
+  .use .logos {
+    max-width: 35%; }
+  .use .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .use .content .cards {
+      max-width: 30%;
+      background-color: white;
+      border-radius: 5px;
+      padding: 3%; }
+      .use .content .cards .content_card {
+        display: flex; }
