@@ -8,7 +8,8 @@
   .use_q {
     color: white;
     text-align: center;
-    padding: 5% 0;
+    padding-top: 8%;
+    padding-bottom: 4%;
   }
   .logos {
     max-width: 35%;
@@ -24,9 +25,17 @@
       padding: 3%;
       .content_card {
         display: flex;
-
       }
     }
   }
 }
 
+.text {
+  color: $text;
+  font-family: $font;
+}
+
+.headers {
+  color: $header;
+  font-family: $font;
+}

@@ -9,9 +9,11 @@
     font-family: $font;
     .headers {
       color: $header;
+      font-family: $font;
     }
     .text {
       color: $text;
+      font-family: $font;
     }
   }
   .sub_content {
@@ -27,6 +29,7 @@
         padding: 0 15%;
         li {
           padding-left: 5%;
+          font-family: $font;
         }
       }
     }
