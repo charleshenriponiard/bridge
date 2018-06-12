@@ -1,7 +1,7 @@
 /* Main navbar */
 .navbar-wagon {
-  background: transparent;
-  background: transparent;
+  // background: transparent;
+  // background: transparent;
   height: 70px;
   width: 100%;
   padding: 0px 30px;
@@ -10,6 +10,7 @@
   justify-content: space-between;
   position: fixed;
   z-index: 10;
+
 }
 
 .navbar-wagon-brand img {
@@ -37,3 +38,8 @@
   color: $yellow;
   text-decoration: none;
 }
+
+.navbar-fixed-top.scrolled {
+    background-color: red !important;
+    transition: background-color 200ms linear;
+  }
