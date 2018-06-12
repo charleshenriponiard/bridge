@@ -23,3 +23,7 @@ fr:
   vendre_text: "Vendez votre voiture et utilisez Bridge pour être sûr de recevoir votre argent"
   reserver_head: "Réserver"
   reserver_text: "Avec Bridge vous ne paierez que si tout est conform à votre réservation en ligne"
+  also_head: "Et aussi... "
+  also_h6: "choix entre livraison et remise en main propre"
+  text_also_1: "Avec Bridge, vous avez le choix d'envoyer la commande par colis suivi ou d'effectuer une remise en main propre."
+  text_also_2: "Dans les deux cas, vous êtres sûr d'petre payé si vous êtes vendeur ou de récupérer votre achat si vous êtes acheteur."

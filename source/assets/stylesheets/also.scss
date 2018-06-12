@@ -1,0 +1,15 @@
+.headers {
+  text-align: center;
+  font-family: $font;
+  color: $header;
+}
+
+.main_also {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 70%;
+  .img_also {
+    max-width: 30%;
+  }
+}
