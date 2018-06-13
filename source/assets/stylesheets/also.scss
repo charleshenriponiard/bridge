@@ -19,11 +19,12 @@
       margin-right: 17%;
     }
     .text_also {
-      font-family: $font;
       color: $text;
     }
     .head_also {
       padding-bottom: 3%;
+      font-weight: bolder;
+      color: $header;
     }
   }
 }
