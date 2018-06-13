@@ -1,0 +1,94 @@
+.price_content {
+  .headers_price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header_price {
+      text-align: center;
+      h2 {
+        color: $header;
+      }
+      p {
+        color: $text;
+      }
+    }
+    .price_explication {
+      max-width: 70%;
+      p {
+        color: $text;
+      }
+    }
+  }
+  .argument {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    height: 100%;
+    position: relative;
+    .euro {
+      position: absolute;
+      top: 20px;
+      left: -10px;
+      font-size: 20px;
+    }
+    .argument_1 {
+      font-size: 100%;
+      color: $yellow;
+      margin-right: 5%;
+      h1 {
+        font-size: 150px;
+        font-weight: lighter;
+      }
+    }
+    .argument_2 {
+      p {
+        color: $text;
+      }
+    }
+  }
+  .price_table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60vh;
+    .tables {
+      display: flex;
+      justify-content: space-between;
+      height: 70%;
+      .table {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .element_1 {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(52, 62, 89);
+          color: white;
+        }
+        .element_2 {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: rgb(100, 184, 249);
+        }
+        .element_3 {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(241, 248, 253);
+          color: rgb(100, 184, 249);
+        }
+
+      }
+    }
+    .litle_card {
+      height: 40%;
+      background-color: blue;
+    }
+  }
+}

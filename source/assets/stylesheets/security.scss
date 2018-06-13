@@ -7,24 +7,22 @@
   justify-content: center;
   .cards_security {
     display: flex;
-    justify-content: sapce-around;
+    justify-content: center;
     height: 50%;
-    width: 70%;
+    max-width: 80%;
     .card {
       height: 100%;
-      min-width: 35%;
+      width: 30%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      z-index: 0;
       &:hover {
         box-shadow: 0px 16px 120px 2px rgba(50, 50, 50, 0.14), 0 6px 100px 5px rgba(50, 50, 50, 0.12), 0 8px 10px -7px rgba(50, 50, 50, 0.2);
-        z-index: 10
+        height: 101%;
       }
       .picto_security {
         display: flex;
-        // flex-grow: 1;
         align-items: center;
         max-width: 27%;
         min-height: 50%;
