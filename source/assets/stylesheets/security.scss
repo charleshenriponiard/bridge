@@ -23,13 +23,18 @@
         z-index: 10
       }
       .picto_security {
-        margin-top: 3%;
-        width: 20%;
-        min-height: 30%;
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        max-width: 27%;
+      }
+      .transaction {
+        max-width: 20%;
       }
       .card_text {
         text-align: center;
         padding: 0 10%;
+        margin-bottom: 10%;
         color: $header;
         p {
           color: $text;
