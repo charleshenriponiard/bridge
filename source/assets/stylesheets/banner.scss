@@ -21,7 +21,7 @@
   .bulles {
     width: 100%;
     position: absolute;
-    top: 0;
+    bottom: 0;
   }
   .slogan {
     font-family: $font;
@@ -44,5 +44,16 @@
     bottom: 0;
     z-index: 0;
     width:18%;
+  }
+}
+
+.navbar-wagon-right {
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    &:hover {
+      color: $yellow;
+    }
   }
 }

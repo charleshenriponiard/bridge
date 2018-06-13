@@ -5,12 +5,12 @@
       <img src="assets/images/logo.png" alt="logo">
     </a>
     <div class="navbar-wagon-right">
-      <%= link_to t('link_1'), '../contact.html.erb', class: "navbar-wagon-item navbar-wagon-link"  %>
+      <a href="#anchor_1" class="js-scrollTo"><%= t('link_1') %></a>
       <%= link_to t('link_2'), '../contact.html.erb', class: "navbar-wagon-item navbar-wagon-link"  %>
       <%= link_to t('link_3'), '/contact.html.erb', :relative => true, class: "navbar-wagon-item navbar-wagon-link"  %>
     </div>
   </div>
-  <div class="banner" style="background-image: url(assets/images/banner.png)">
+  <div class="banner" style="background-image: url(assets/images/banner.png); background-size: cover;">
 
     <h1 class="slogan" ><%= t('slogan').upcase%></h1>
     <div class="catch_phrase">
