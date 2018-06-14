@@ -1,0 +1,8 @@
+footer {
+  background-color: #343e59;
+  height: 10vh;
+  margin: 0; }
+  footer .logo {
+    max-width: 20%; }
+  footer p {
+    color: white; }

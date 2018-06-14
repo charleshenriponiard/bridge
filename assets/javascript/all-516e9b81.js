@@ -1,8 +1,8 @@
 import $ from "jquery";
 
-$(function(){
-  console.log("I'm working with jQuery!")
-});
+// $(function(){
+//   console.log("I'm working with jQuery!")
+// });
 
 
 $(document).ready(function() {
@@ -13,8 +13,6 @@ $(document).ready(function() {
    return false;
  });
 });
-
-
 import "bootstrap";
 import "all.scss";
 import "navbar-0f0d866b.js";
