@@ -35,8 +35,31 @@
   justify-content: flex-end;
 }
 
-/* Basic navbar item */
-.navbar-wagon-item {
-  cursor: pointer;
-  padding: 0 20px;
+@media (min-width: 375px) {
+  .navbar-wagon-brand img {
+    max-height: 40px ;
+  }
+}
+
+
+
+@media (min-width: 576px) {
+  .catch_phrase {
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 768px) {
+    .catch_phrase {
+    margin-top: 2%;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }

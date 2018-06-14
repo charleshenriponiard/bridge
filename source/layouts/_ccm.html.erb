@@ -4,9 +4,9 @@
     <p class="text"><%= t('ccm_p') %></p>
   </div>
   <div class="sub_content">
-    <div class="list">
+    <div class="list list_1">
       <div class="sub_headers">
-        # <%= image_tag 'acheteur.png' %>
+        <%= image_tag 'acheteur.png', class: "img_logo" %>
         <h3 class="headers headers_list"><%= t('acheteur_q') %></h3>
       </div>
       <ul>
@@ -16,7 +16,9 @@
         <li><%= t('list_acheteur_4') %></li>
       </ul>
     </div>
-    <div class="list list_2">
+    <div class="vertical">
+    </div>
+    <div class="list">
       <div class="sub_headers">
         <%= image_tag 'store.png', class: "img_logo" %>
         <h3 class="headers headers_list"><%= t('vendeur_q') %></h3>

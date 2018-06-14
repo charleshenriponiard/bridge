@@ -18,8 +18,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    .cards {
-      max-width: 30%;
+    .card {
+      width: 40%;
+      // max-height: 30vh;
       background-color: white;
       border-radius: 5px;
       padding: 3%;
@@ -36,4 +37,10 @@
 
 .headers {
   color: $header;
+}
+
+@media (min-width: 375px) {
+  .use {
+    height: 100vh;
+  }
 }

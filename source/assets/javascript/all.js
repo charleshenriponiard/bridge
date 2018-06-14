@@ -1,8 +1,8 @@
 import $ from "jquery";
 
-// $(function(){
-//   console.log("I'm working with jQuery!")
-// });
+$(function(){
+  console.log("I'm working with jQuery!")
+});
 
 
 $(document).ready(function() {
