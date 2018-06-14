@@ -10,8 +10,10 @@
 </head>
 <body class="<%= page_classes %>">
   <div class="container-fluid">
+    <%= partial "layouts/navbar_2" %>
     <%= partial "layouts/banner" %>
     <%= yield %>
+    <%= partial "layouts/footer" %>
   </div>
   <%= javascript_include_tag "all.bundle" %>
   <script src="https://code.jquery.com/jquery-latest.js"></script>
