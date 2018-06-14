@@ -34,7 +34,6 @@
     .list {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       margin: 0 5%;
       max-height: 70vh !important;
       ul > li {
@@ -55,34 +54,74 @@
   }
 }
 
-
-
-
-@media (min-width: 576px) {
+/* Smartphones (portrait et paysage) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  ul > li {
+    font-size: 12px;
+  }
+  h3.headers {
+    font-size: 20px;
+  }
   .main_ccn {
-    max-height: 70vh;
+    height: 80vh;
   }
 }
 
-@media (min-width: 768px) {
-  .main_ccn {
-    max-height: 70vh;
-  }
+/* Smartphones (paysage) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
 }
 
-@media (min-width: 992px) {
-  .main_ccn {
-    max-height: 70vh;
-  }
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
 }
 
-@media (min-width: 1200px) {
-  .main_ccn {
-    max-height: 70vh;
-  }
+/* iPads (portrait et paysage) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
 }
 
+// /* iPads (paysage) ----------- */
+// @media only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px)
+// and (orientation : paysage) {
+// /* Styles */
+// }
 
+// /* iPads (portrait) ----------- */
+// @media only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px)
+// and (orientation : portrait) {
+// /* Styles */
+// }
+
+// /* PC bureau et PC portable ----------- */
+// @media only screen
+// and (min-width : 1224px) {
+// /* Styles */
+// }
+
+// /* Ecran large ----------- */
+// @media only screen
+// and (min-width : 1824px) {
+// /* Styles */
+// }
+
+// /* iPhone 4 ----------- */
+// @media
+// only screen et  et  et (-webkit-min-device-pixel-ratio : 1.5),
+// only screen et  et  et (min-device-pixel-ratio : 1.5) {
+// /* Styles */
+// }
 
 
 
