@@ -1,31 +1,30 @@
 <section>
-<div class="price_content">
+  <div class="price_content">
 
-  <div class="headers_price">
-    <div class="header_price">
-      <h2><%= t('price_header') %></h2>
-      <p><%= t('price_text') %></p>
-    </div>
-    <div class="argument">
-      <div class="argument_1">
-        <p class="euro"><%= t('euro') %></p>
-        <h1><%= t('argument_1') %></h1>
+    <div class="headers_price">
+      <div class="header_price">
+        <h2><%= t('price_header') %></h2>
+        <p><%= t('price_text') %></p>
       </div>
-      <div class="argument_2">
-        <p><%= t('argument_2') %></p>
+      <div class="argument">
+        <div class="argument_1">
+          <p class="euro"><%= t('euro') %></p>
+          <h1><%= t('argument_1') %></h1>
+        </div>
+        <div class="argument_2">
+          <p><%= t('argument_2') %></p>
+        </div>
+      </div>
+      <div class="price_explication">
+        <p><%= t('price_explication') %><u><%= t('price_explication_underline') %></u></p>
       </div>
     </div>
-    <div class="price_explication">
-      <p><%= t('price_explication') %><u><%= t('price_explication_underline') %></u></p>
-    </div>
-  </div>
 
-  <div class="price_table">
-    <div class="card-group">
+    <div class="price_table">
+      <div class="card-group">
 
-
-      <div class="card card_1">
-          <div class="card-body">
+        <div class="card card_1">
+          <div class="card-body element">
             <h5><%= t('head_section_1').upcase %></h5>
             <p class="card-text"><%= t('text_section_1') %></p>
           </div>
@@ -33,36 +32,36 @@
             <h5><%= t('head_section_2').upcase %></h5>
             <p class="card-text"><%= t('text_section_2') %></p>
           </div>
+        </div>
+
+        <div class="card card_2">
+          <div class="element_1 card-title">
+            <h4><%= t('element_1').upcase %></h4>
+          </div>
+          <div class="element_2 card-body">
+            <p class="card-text"><%= t('element_2') %></p>
+          </div>
+          <div class="element_3 card-body">
+            <p class="card-text"><%= t('element_3') %></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="element_1 card-title">
+            <h4><%= t('element_4').upcase %></h4>
+          </div>
+          <div class="element_2 card-body">
+            <p class="card-text"><%= t('element_5') %></p>
+          </div>
+          <div class="element_3 card-body">
+            <p class="card-text"><%= t('element_5') %></p>
+          </div>
+        </div>
+
       </div>
-
-
-      <div class="card card_2">
-        <div class="element_1 card-title">
-          <h4><%= t('element_1').upcase %></h4>
-        </div>
-        <div class="element_2 card-body">
-          <p class="card-text"><%= t('element_2') %></p>
-        </div>
-        <div class="element_3 card-body">
-          <p class="card-text"><%= t('element_3') %></p>
-        </div>
-      </div>
-
-
-      <div class="card">
-        <div class="element_1 card-title">
-          <h4><%= t('element_4').upcase %></h4>
-        </div>
-        <div class="element_2 card-body">
-          <p class="card-text"><%= t('element_5') %></p>
-        </div>
-        <div class="element_3 card-body">
-          <p class="card-text"><%= t('element_5') %></p>
-        </div>
-      </div>
-
-
     </div>
+      <span class="price_link">
+        <a href="#" class="price_link_position"><u><%= t("link_price") %></u></a>
+      </span>
   </div>
-</div>
 </section>

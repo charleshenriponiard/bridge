@@ -51,17 +51,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    margin-top: 5%;
     .card-group {
       width: 80%;
+      position: relative;
+
       .card {
+
         display: flex;
         flex-direction: column;
         text-align: center;
         box-shadow: 0px 16px 120px 2px rgba(50, 50, 50, 0.14), 0 6px 100px 5px rgba(50, 50, 50, 0.12), 0 8px 10px -7px rgba(50, 50, 50, 0.2);
+        .element {
+          font-size: 80%;
+        }
         .element_0 {
           background-color: rgb(241, 248, 253);
           color: rgb(100, 184, 249);
+          font-size: 80%;
         }
         .element_1 {
           height: 100%;
@@ -104,6 +111,17 @@
 .card-title, h4 {
   font-size: 95%;
 }
+.price_link, .price_link_position {
+    display: block;
+    text-align: center;
+    color: $header;
+    margin-left: 41%;
+    font-size: 90%;
+    &:hover {
+      color: $yellow;
+      text-decoration: none;
+    }
+  }
 
 
 
