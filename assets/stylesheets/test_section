@@ -1,12 +1,12 @@
 /*
-SassC::SyntaxError: Error: Undefined variable: "$yellow".
-        on line 19 of source/assets/stylesheets/footer.scss
->>         color: $yellow;
-   ---------------^
+SassC::SyntaxError: Error: Undefined variable: "$header".
+        on line 11 of source/assets/stylesheets/test_section.scss
+>>     color: $header;
+   -----------^
 
 
 Backtrace:
-/Users/poniard/code/middleman_bridge/bridge/source/assets/stylesheets/footer.scss:19
+/Users/poniard/code/middleman_bridge/bridge/source/assets/stylesheets/test_section.scss:11
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sassc-1.11.4/lib/sassc/engine.rb:47:in `render'
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/tilt-2.0.6/lib/tilt/template.rb:100:in `render'
@@ -99,4 +99,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$yellow\".\A         on line 19 of source/assets/stylesheets/footer.scss\A >>         color: $yellow;\A    ---------------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$header\".\A         on line 11 of source/assets/stylesheets/test_section.scss\A >>     color: $header;\A    -----------^\A "; }
