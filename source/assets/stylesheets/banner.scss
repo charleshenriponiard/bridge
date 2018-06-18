@@ -11,7 +11,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 10;
+    z-index: 5;
   }
   .nuage-2, .nuage-3, .nuage-4 {
     width: 100%;
@@ -22,6 +22,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
+    z-index: 0;
   }
   .slogan {
     font-family: $font;
@@ -38,6 +39,7 @@
     width: 50%;
     position: absolute;
     top: 22%;
+    z-index: 0;
   }
   .iphone_1 {
     position: absolute;
@@ -135,7 +137,7 @@ and (orientation : paysage) {
 @media only screen
 and (min-width : 1224px) {
   .iphone_1 {
-    max-width: 18%;
+    max-width: 12%;
   }
   .slogan {
     font-size: 190% !important;
