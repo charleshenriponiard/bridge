@@ -35,13 +35,6 @@
   justify-content: flex-end;
 }
 
-@media (min-width: 375px) {
-  .navbar-wagon-brand img {
-    max-height: 40px ;
-  }
-}
-
-
 
 @media (min-width: 576px) {
   .catch_phrase {
@@ -53,5 +46,21 @@
     .catch_phrase {
     margin-top: 2%;
   }
+
+}
+
+ @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 990px) {
+  .navbar-wagon {
+    background-color: rgb(52, 62, 89) !important;
+    a {
+      color: white !important;
+    }
+
+  .navbar-wagon-brand img {
+    max-height: 40px ;
+  }
+}
 
 }
