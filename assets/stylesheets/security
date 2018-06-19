@@ -1,12 +1,12 @@
 /*
-SassC::SyntaxError: Error: Undefined variable: "$text".
-        on line 23 of source/assets/stylesheets/security.scss
->>         color: $text;
-   ---------------^
+SassC::SyntaxError: Error: Undefined variable: "$yellow".
+        on line 7 of source/assets/stylesheets/security.scss
+>>     border: 1px solid $yellow;
+   ----------------------^
 
 
 Backtrace:
-/Users/poniard/code/middleman_bridge/bridge/source/assets/stylesheets/security.scss:23
+/Users/poniard/code/middleman_bridge/bridge/source/assets/stylesheets/security.scss:7
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sassc-1.11.4/lib/sassc/engine.rb:47:in `render'
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/tilt-2.0.6/lib/tilt/template.rb:100:in `render'
@@ -99,4 +99,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$text\".\A         on line 23 of source/assets/stylesheets/security.scss\A >>         color: $text;\A    ---------------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$yellow\".\A         on line 7 of source/assets/stylesheets/security.scss\A >>     border: 1px solid $yellow;\A    ----------------------^\A "; }
