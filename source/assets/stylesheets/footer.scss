@@ -1,6 +1,5 @@
 footer {
   background-color: rgb(52, 62, 89);
-  height: 10vh;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -10,14 +9,19 @@ footer {
     height: 100%;
     text-align: right;
     margin-right: 10px;
+    padding: 0;
     ul > li, a {
       text-decoration: none;
       color: white;
       list-style: none;
-      max-height: 100%;
+      // max-height: 100%;
+      margin: 0 0.2rem;
       &:hover {
         color: $yellow;
       }
+    }
+    ul {
+      margin: 0;
     }
   }
   .footer_logo {
@@ -31,9 +35,21 @@ footer {
       }
     }
   .logo {
-    max-width: 20%;
+    width: 50%;
   }
   p {
     color: white;
+  }
+}
+
+ @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 990px) {
+  .footer_logo {
+    .logo {
+    }
+    p {
+      font-size: 10px!important;
+    }
   }
 }

@@ -21,7 +21,7 @@
     max-height: 100%;
     position: relative;
     .headers_list {
-      margin: 10% 0;
+      margin: 2rem 0;
     }
     .vertical {
       display: flex;
@@ -53,6 +53,9 @@
     }
   }
 }
+footer .footer-right ul > li, footer .footer-right a{
+  display:inline-block;
+}
 
 /* Smartphones (portrait et paysage) ----------- */
 @media only screen
@@ -62,7 +65,7 @@ and (max-device-width : 480px) {
     font-size: 12px;
   }
   h3.headers {
-    font-size: 20px;
+    font-size: 1rem;
   }
   .main_ccn {
     height: 80vh;
