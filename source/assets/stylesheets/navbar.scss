@@ -57,6 +57,9 @@ and (max-device-width : 990px) {
     a {
       color: white !important;
     }
+  .navbar-toggler {
+    background-color: white;
+  }
 
   .navbar-wagon-brand img {
     max-height: 40px ;
