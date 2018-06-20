@@ -39,7 +39,7 @@
     width: 50%;
     position: absolute;
     top: 22%;
-    z-index: 0;
+    z-index: 1031;
   }
   .iphone_1 {
     position: absolute;
@@ -58,6 +58,11 @@
       color: $yellow;
     }
   }
+}
+
+.form_mail {
+  margin-top: 10px;
+  z-index: 1031;
 }
 
 

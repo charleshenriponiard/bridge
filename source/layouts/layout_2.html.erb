@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bridge</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-  <!-- <link href="https//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
-  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <%= favicon_tag "favicon.ico" %>
 </head>
 <body class="<%= page_classes %>">
   <div class="container-fluid">
-    <%= partial "layouts/navbar" %>
+    <%= partial "layouts/navbar_contact" %>
     <%= yield %>
-    <%= partial "layouts/footer" %>
+    <%= partial "layouts/footer_contact" %>
   </div>
   <%= javascript_include_tag "all.bundle" %>
-  <script src="https://code.jquery.com/jquery-latest.js"></script>
 </body>
 </html>
