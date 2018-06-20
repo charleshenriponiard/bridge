@@ -1,5 +1,5 @@
 .contact {
-
+  height: 100%;
 }
 
 .contact_block {
@@ -28,21 +28,55 @@ i {
   margin-top: 1rem;
 
 }
-
-.contact_block {
-  // display: flex !important;
-  // justify-content: center !important;
-  // flex-direction: column !important;
-  // align-items: center !important;
-  // flex-grow: 1 !important;
+.form-inline {
+  justify-content: center;
 }
 
-// .width_block {
-//   width: 130%;
-// }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 576px) {
+  .banner_contact {
+    height: 120vh;
+  }
+  .form-inline .form-control {
+    width: 100% !important;
+  }
+  label {
+    color: $header;
+  }
+}
+
+@media only screen
+and (min-device-width : 576px)
+and (max-device-width : 770px) {
+  .banner_contact {
+    height: 100vh;
+  }
+  .form-inline .form-control {
+    width: 100% !important;
+  }
+  label {
+    color: $header;
+  }
+}
 
  @media only screen
-and (min-device-width : 320px)
+and (min-device-width : 770px)
+and (max-device-width : 990px) {
+  .banner_contact {
+    height: 100vh;
+  }
+  .form-inline .form-control {
+    width: 100% !important;
+  }
+  label {
+    color: $header;
+  }
+}
+
+ @media only screen
+and (min-device-width : 990px)
 and (max-device-width : 1700px) {
   .form-inline .form-control {
     width: 60% !important;
