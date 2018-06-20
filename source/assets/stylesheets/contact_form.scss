@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+
 }
 
 .contact_block {
@@ -10,12 +10,23 @@
 }
 
 .contact_content {
-  margin-top: 10rem;
+  margin-top: 2rem;
   text-align: center;
   z-index: 1031;
 }
 .indicates-required {
   display: none;
+}
+i {
+  color: red;
+}
+.lighter {
+    font-weight: lighter !important;
+  }
+.button_contact {
+  background-color: $yellow;
+  margin-top: 1rem;
+
 }
 
 .contact_block {
@@ -32,17 +43,12 @@
 
  @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 1330px) {
-  // .form-group {
-  //   display: flex;
-  //   justify-content: center;
-  //   flex-direction: column;
-  //   align-items: flex-start;
-  //   flex-grow: 1;
-  //   width: 100% !important;
-  //   margin-bottom: 10px !important;
-  // }
+and (max-device-width : 1700px) {
+  .form-inline .form-control {
+    width: 60% !important;
+    margin: 0.5rem 0;
+  }
   label {
-    margin-right: 2rem;
+    color: $header;
   }
 }
