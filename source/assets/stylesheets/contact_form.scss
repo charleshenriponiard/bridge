@@ -1,3 +1,32 @@
-.form_contact {
+.contact {
   height: 100vh;
 }
+
+// .contact_block {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   width: 100%;
+// }
+
+.contact_content {
+  // margin-top: 10rem;
+  // text-align: center;
+  z-index: 1031;
+}
+.indicates-required {
+  display: none;
+}
+
+.contact_block {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  flex-grow: 1 !important;
+}
+
+// .width_block {
+//   width: 130%;
+// }
+
