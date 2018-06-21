@@ -3,63 +3,173 @@
     <div class="row">
       <div class="col-3">
         <div class="nav flex-column nav-pills nav_vertical" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-        </div>
-      </div>
-      <div class="col-9">
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </button>
-      </h5>
-    </div>
+          <a class="nav-link active" id="v-pills-question-a-tab" data-toggle="pill" href="#v-pills-question-a" role="tab" aria-controls="v-pills-question-a" aria-selected="true"><%= t('question_a') %></a>
 
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <a class="nav-link" id="v-pills-question-b-tab" data-toggle="pill" href="#v-pills-question-b" role="tab" aria-controls="v-pills-question-b" aria-selected="false"><%= t('question_b') %></a>
+
+          <a class="nav-link" id="v-pills-question-c-tab" data-toggle="pill" href="#v-pills-question-c" role="tab" aria-controls="v-pills-question-c" aria-selected="false"><%= t('question_c') %></a>
+
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><%= t('question_d') %></a>
+
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><%= t('question_e') %></a>
+
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><%= t('question_f') %></a>
+
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><%= t('question_g') %></a>
+
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><%= t('question_h') %></a>
+
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><%= t('question_i') %></a>
+
         </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Collapsible Group Item #2
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Collapsible Group Item #3
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+      <div class="col-9 faq_content_card">
+        <div class="tab-content" id="v-pills-tabContent">
+
+          <div class="tab-pane fade show active" id="v-pills-question-a" role="tabpanel" aria-labelledby="v-pills-question-a-tab">
+
+            <div class="card">
+              <div class="card-header" id="headingQuestionA1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseQuestionA1" aria-expanded="true" aria-controls="collapseQuestionA1">
+                    <%= t('subtitle_a_1') %>
+                  </button>
+                </h5>
+              </div>
+
+                <div id="collapseQuestionA1" class="collapse show" aria-labelledby="headingQuestionA1" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <%= t('answer_a_1') %>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingQuestionA2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseQuestionA2" aria-expanded="false" aria-controls="collapseQuestionA2">
+                      <%= t('subtitle_a_2') %>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseQuestionA2" class="collapse" aria-labelledby="headingQuestionA2" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <%= t('answer_a_2_1') %>
+                    <ul>
+                      <li><%= t('answer_a_2_2') %></li>
+                      <li><%= t('answer_a_2_3') %></li>
+                      <li><%= t('answer_a_2_4') %></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingQuestionA3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseQuestionA3" aria-expanded="false" aria-controls="collapseQuestionA3">
+                      <%= t('subtitle_a_3') %>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseQuestionA3" class="collapse" aria-labelledby="headingQuestionA3" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <%= t('answer_a_3') %>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingQuestionA4">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseQuestionA4" aria-expanded="false" aria-controls="collapseQuestionA4">
+                      <%= t('subtitle_a_4') %>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseQuestionA4" class="collapse" aria-labelledby="headingQuestionA4" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <%= t('answer_a_4') %>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingQuestionA5">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseQuestionA5" aria-expanded="false" aria-controls="collapseQuestionA5">
+                      <%= t('subtitle_a_5') %>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseQuestionA5" class="collapse" aria-labelledby="headingQuestionA5" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <%= t('answer_a_5') %>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingQuestionA6">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseQuestionA6" aria-expanded="false" aria-controls="collapseQuestionA6">
+                      <%= t('subtitle_a_6') %>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseQuestionA6" class="collapse" aria-labelledby="headingQuestionA6" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <%= t('answer_a_6') %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-question-b" role="tabpanel" aria-labelledby="v-pills-question-b-tab"><div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingQuestionB1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseQuestionB1" aria-expanded="true" aria-controls="collapseQuestionB1">
+                    <%= t('subtitle_b_1') %>
+                  </button>
+                </h5>
+              </div>
+
+                <div id="collapsequestionB1" class="collapse show" aria-labelledby="headingquestionB1" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-question-c" role="tabpanel" aria-labelledby="v-pills-question-c-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-question-d" role="tabpanel" aria-labelledby="v-pills-question-d-tab">...</div>
         </div>
       </div>
     </div>
