@@ -1,6 +1,17 @@
 .nav_vertical {
-  background-color: red;
-  height: 100vh;
+  background-color: rgb(250, 250, 250);
+  height: calc(100vh - 70px) ;
+  position: sticky;
+  top: 70px;
   justify-content: center;
+  margin-top: 70px;
+  a {
+    color: $header !important;
+    text-decoration: none;
+  }
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: $yellow !important;
+  color: white !important;
 }
 

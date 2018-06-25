@@ -1,3 +1,23 @@
 .block  {
   height: 100%;
 }
+.faq_content_card {
+  margin-top: 70px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: $header;
+  &:hover {
+    text-decoration: none;
+    color: $yellow;
+  }
+
+}
+.btn:not(:disabled):not(.disabled) {
+    text-decoration: none;
+}
+
+.navbar-faq {
+  background-color: $header !important;
+}
