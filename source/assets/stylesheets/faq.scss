@@ -3,6 +3,9 @@
 }
 .faq_content_card {
   margin-top: 70px;
+  .card-body {
+    color: $header;
+  }
 }
 
 .btn-link {
