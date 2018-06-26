@@ -7,8 +7,7 @@
 .navbar-wagon {
   position: fixed;
   z-index: 10;
-  background: transparent !important;
-  background-color: transparent !important;
+  background-color: $header;
 }
 
 .navbar {
@@ -65,5 +64,4 @@ and (max-device-width : 990px) {
     max-height: 40px ;
   }
 }
-
 }
