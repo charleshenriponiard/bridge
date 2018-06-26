@@ -13,6 +13,8 @@ $(document).ready(function() {
    return false;
  });
 });
+
+
 import "bootstrap";
 import "all.scss";
 import "navbar.js";

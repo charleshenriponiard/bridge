@@ -124,7 +124,14 @@
       text-decoration: none;
     }
   }
-
+.link_justify {
+  text-decoration: none;
+  color: $header;
+  &:hover {
+    text-decoration: none;
+    color: $yellow;
+  }
+}
 
 
 @media only screen
