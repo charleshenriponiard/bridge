@@ -13,6 +13,14 @@ $(document).ready(function() {
    return false;
  });
 });
+$(document).ready(function() {
+ $('.js-scrollToPrice').on('click', function() { // Au clic sur un élément
+   var page = $(this).attr('href'); // Page cible
+   var speed = 1000; // Durée de l'animation (en ms)
+   $('html, body').animate( { scrollTop: $(anchor_2).offset().top }, speed ); // Go
+   return false;
+ });
+});
 
 
 import "bootstrap";
