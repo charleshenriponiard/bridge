@@ -42,6 +42,14 @@ footer {
   }
 }
 
+a.unkubator {
+  color: white;
+  &:hover {
+    color: $yellow;
+    text-decoration: none;
+  }
+}
+
  @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 990px) {
