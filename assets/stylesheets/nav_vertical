@@ -1,12 +1,12 @@
 /*
 SassC::SyntaxError: Error: Undefined variable: "$header".
-        on line 10 of source/assets/stylesheets/nav_vertical.scss
+        on line 9 of source/assets/stylesheets/nav_vertical.scss
 >>     color: $header !important;
    -----------^
 
 
 Backtrace:
-/Users/poniard/code/middleman_bridge/bridge/source/assets/stylesheets/nav_vertical.scss:10
+/Users/poniard/code/middleman_bridge/bridge/source/assets/stylesheets/nav_vertical.scss:9
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sassc-1.11.4/lib/sassc/engine.rb:47:in `render'
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /Users/poniard/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/tilt-2.0.6/lib/tilt/template.rb:100:in `render'
@@ -99,4 +99,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$header\".\A         on line 10 of source/assets/stylesheets/nav_vertical.scss\A >>     color: $header !important;\A    -----------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$header\".\A         on line 9 of source/assets/stylesheets/nav_vertical.scss\A >>     color: $header !important;\A    -----------^\A "; }
