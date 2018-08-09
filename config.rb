@@ -32,8 +32,10 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.deploy_method  = :git
-  deploy.branch         = 'gh-pages'
-  deploy.build_before   = true
+  deploy.deploy_method = :rsync
+  deploy.host          = 'www.bridge-app.com'
+  deploy.path          = '/'
+  deploy.build_before  = true
+  deploy.clean         = true
 end
 
