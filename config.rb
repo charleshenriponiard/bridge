@@ -32,10 +32,10 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.deploy_method = :rsync
-  deploy.host          = 'www.bridge-app.com'
-  deploy.path          = '/'
-  deploy.build_before  = true
-  deploy.clean         = true
+  deploy.method   = :ftp
+  deploy.host            = 'ftp.example.com'
+  deploy.path            = '/srv/www/site'
+  deploy.user            = 'tvaughan'
+  deploy.password        = 'secret'
 end
 
