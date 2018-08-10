@@ -33,9 +33,9 @@ end
 
 activate :deploy do |deploy|
   deploy.method   = :ftp
-  deploy.host            = 'ftp.example.com'
-  deploy.path            = '/srv/www/site'
-  deploy.user            = 'tvaughan'
-  deploy.password        = 'secret'
+  deploy.host            = ENV['HOST']
+  deploy.path            = ENV['PATH']
+  deploy.user            = ENV['USER']
+  deploy.password        = ENV['PASSWORD']
 end
 
