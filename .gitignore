@@ -4,3 +4,4 @@
 /.tmp
 /.sass-cache
 application.yml
+config.rb
